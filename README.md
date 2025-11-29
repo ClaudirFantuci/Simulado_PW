@@ -19,6 +19,7 @@ O projeto segue boas práticas, mas é uma versão simplificada para o cenario d
 Tecnologias: Java/Spring Boot/Lombok/MySQL; React/Vite/Axios/SockJS.
 
 ## Estrutura
+
 back/
 ├── src/
 │   ├── main/
@@ -29,9 +30,11 @@ back/
 │   │   │   ├── enums/               
 │   │   │   ├── repository/          
 │   │   │   ├── service/            
-│   │   │   └── websocket/           # Serviços WebSocket (ex: WebSocketNotificationService.java)
+│   │   │   └── websocket/          
 │   │   └── resources/               
 └── pom.xml      
+
+
 
 front/
 ├── src/
