@@ -1,0 +1,9 @@
+package enums;
+
+public enum Lab {
+    LAB_1,
+    LAB_2,
+    LAB_3,
+    LAB_4,
+    LAB_5;
+}
