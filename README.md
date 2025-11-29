@@ -1,4 +1,4 @@
-# README.md - Sistema de Reservas de Laboratórios
+#Sistema de Reservas de Laboratórios
 
 ## Descrição
 
