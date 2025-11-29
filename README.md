@@ -16,38 +16,9 @@ O projeto segue boas práticas, mas é uma versão simplificada para o cenario d
 - **Frontend**: React com páginas Home/Reservas, formulários, tabelas e integração API/WebSocket.
 - **Funcionalidades**: Criação/edição/cancelamento/exclusão de reservas; resumo de ocupação; filtros; regras de negócio (sem conflitos, limite por solicitante).
 
-Tecnologias: Java/Spring Boot/Lombok/MySQL; React/Vite/Axios/SockJS.
+Tecnologias: Java/Spring Boot/Lombok/MySQL; React/Axios/SockJS.
 
 ## Estrutura
-
-back/
-├── src/
-│   ├── main/
-│   │   ├── java/com/seuapp/reservas/
-│   │   │   ├── config/              
-│   │   │   ├── controller/
-│   │   │   ├── model/
-│   │   │   ├── enums/               
-│   │   │   ├── repository/          
-│   │   │   ├── service/            
-│   │   │   └── websocket/          
-│   │   └── resources/               
-└── pom.xml      
-
-
-
-front/
-├── src/
-│   ├── components/                  
-│   ├── pages/                      
-│   ├── services/                    
-│   ├── App.jsx                      
-│   ├── main.jsx                    
-│   └── index.css                    
-├── public/                          
-├── package.json                     
-             
-
 - **Backend**: Pacotes para config, controller, entity, enums, repository, service, websocket.
 - **Frontend**: Componentes (Header, FormReserva), páginas (Home, Reservas), services (api.js, websocket.js).
 
