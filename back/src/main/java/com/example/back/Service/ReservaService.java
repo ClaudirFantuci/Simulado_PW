@@ -1,4 +1,4 @@
-package Service;
+package com.example.back.Service;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -9,11 +9,11 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import enums.Lab;
-import enums.Periodo;
-import enums.Status;
-import model.Reserva;
-import repository.ReservaRepository;
+import com.example.back.enums.Lab;
+import com.example.back.enums.Periodo;
+import com.example.back.enums.Status;
+import com.example.back.model.Reserva;
+import com.example.back.repository.ReservaRepository;
 
 @Service
 public class ReservaService {

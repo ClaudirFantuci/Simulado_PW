@@ -1,21 +1,21 @@
-package controller;
+package com.example.back.controller;
 
 import lombok.RequiredArgsConstructor;
-import model.Reserva;
 
 import org.springframework.web.bind.annotation.*;
 
-import Service.ReservaService;
-import enums.Lab;
-import enums.Periodo;
-import enums.Status;
+import com.example.back.Service.ReservaService;
+import com.example.back.enums.Lab;
+import com.example.back.enums.Periodo;
+import com.example.back.enums.Status;
+import com.example.back.model.Reserva;
 
 import java.util.List;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/api/reservas")
-@CrossOrigin(origins = "*")
+@CrossOrigin
 @RequiredArgsConstructor
 public class ReservaController {
 
@@ -43,7 +43,10 @@ public class ReservaController {
     }
 
     @GetMapping
-    public List<Reserva> listar() {
+    public List<Reserva> listar(
+            @RequestParam(required = false) String laboratorio,
+            @RequestParam(required = false) String periodo,
+            @RequestParam(required = false) String status) {
         return service.listar();
     }
 

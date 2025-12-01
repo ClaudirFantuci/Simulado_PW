@@ -1,10 +1,12 @@
-package websocket;
+package com.example.back.websocket;
 
 import lombok.RequiredArgsConstructor;
-import model.Reserva;
 
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
+
+import com.example.back.model.Reserva;
 
 import java.util.HashMap;
 import java.util.Map;

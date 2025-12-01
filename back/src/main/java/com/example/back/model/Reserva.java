@@ -1,13 +1,14 @@
-package model;
+package com.example.back.model;
 
 import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import enums.DiaSemana;
-import enums.Lab;
-import enums.Periodo;
-import enums.Status;
+import com.example.back.enums.DiaSemana;
+import com.example.back.enums.Lab;
+import com.example.back.enums.Periodo;
+import com.example.back.enums.Status;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

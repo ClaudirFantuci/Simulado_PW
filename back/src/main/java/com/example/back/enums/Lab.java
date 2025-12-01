@@ -1,4 +1,4 @@
-package enums;
+package com.example.back.enums;
 
 public enum Lab {
     LAB_1,
